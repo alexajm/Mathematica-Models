@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[    204979,       4417]
-NotebookOptionsPosition[    204588,       4398]
-NotebookOutlinePosition[    204998,       4416]
-CellTagsIndexPosition[    204955,       4413]
+NotebookDataLength[    205126,       4422]
+NotebookOptionsPosition[    204735,       4403]
+NotebookOutlinePosition[    205145,       4421]
+CellTagsIndexPosition[    205102,       4418]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -27,15 +27,19 @@ Cell[BoxData[{
     RowBox[{"NotebookDirectory", "[", "]"}], "]"}], ";"}], 
   "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"layers", "=", "6"}], ";", " ", 
+  RowBox[{
+   RowBox[{"layers", "=", "6"}], ";"}], " ", 
   RowBox[{"(*", 
    RowBox[{
    "Number", " ", "of", " ", "nested", " ", "layers", " ", "of", " ", "the", 
-    " ", "pyramid"}], "*)"}], "\[IndentingNewLine]", 
-  RowBox[{"gradient", "=", "\"\<SolarColors\>\""}], ";", " ", 
+    " ", "pyramid"}], "*)"}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"gradient", "=", "\"\<SolarColors\>\""}], ";"}], " ", 
   RowBox[{"(*", 
    RowBox[{"Color", " ", "scheme", " ", "used"}], "*)"}], 
-  "\[IndentingNewLine]", "\[IndentingNewLine]", 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{
   RowBox[{"output", "=", 
    RowBox[{"{", "}"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
@@ -313,7 +317,8 @@ Cell[BoxData[{
   3.638968926950135*^9, 3.638968992336556*^9}, {3.638969043815422*^9, 
   3.6389690439306593`*^9}, {3.6389691181397*^9, 3.6389691712641077`*^9}, {
   3.638969396856539*^9, 3.638969522062151*^9}, {3.638969601151367*^9, 
-  3.638969664802816*^9}}],
+  3.638969664802816*^9}, {3.638974719144391*^9, 3.638974735825405*^9}, {
+  3.638974806101797*^9, 3.638974821486128*^9}}],
 
 Cell[BoxData[
  GraphicsBox[{
@@ -4416,8 +4421,8 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[579, 22, 11015, 293, 454, "Input"],
-Cell[11597, 317, 192975, 4078, 362, "Output"]
+Cell[579, 22, 11162, 298, 454, "Input"],
+Cell[11744, 322, 192975, 4078, 328, "Output"]
 }, Open  ]]
 }
 ]
